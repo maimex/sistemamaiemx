@@ -1,0 +1,20 @@
+2023-09-13 18:45:16.125 CDT [4040] LOG:  se recibiÛ peticiÛn de apagado r·pido
+2023-09-13 18:45:16.137 CDT [4040] LOG:  abortando transacciones activas
+2023-09-13 18:45:16.143 CDT [6616] FATAL:  terminando la conexi√≥n debido a una orden del administrador
+2023-09-13 18:45:16.143 CDT [6792] FATAL:  terminando la conexi√≥n debido a una orden del administrador
+2023-09-13 18:45:16.143 CDT [7016] FATAL:  terminando la conexi√≥n debido a una orden del administrador
+2023-09-13 18:45:16.143 CDT [7272] FATAL:  terminando la conexi√≥n debido a una orden del administrador
+2023-09-13 18:45:16.145 CDT [7252] FATAL:  terminando la conexi√≥n debido a una orden del administrador
+2023-09-13 18:45:16.155 CDT [7592] FATAL:  terminando la conexi√≥n debido a una orden del administrador
+2023-09-13 18:45:16.156 CDT [6936] FATAL:  terminando la conexi√≥n debido a una orden del administrador
+2023-09-13 18:45:16.159 CDT [5596] FATAL:  terminando la conexi√≥n debido a una orden del administrador
+2023-09-13 18:45:16.162 CDT [6992] FATAL:  terminando la conexi√≥n debido a una orden del administrador
+2023-09-13 18:45:16.162 CDT [5556] FATAL:  terminando la conexi√≥n debido a una orden del administrador
+2023-09-13 18:45:16.164 CDT [3980] ERROR:  cancelando la sentencia debido a una peticiÛn del usuario
+2023-09-13 18:45:16.201 CDT [4040] LOG:  proceso ayudante ´logical replication launcherª (PID 3980) terminÛ con cÛdigo de salida 1
+2023-09-13 18:45:16.202 CDT [10852] FATAL:  terminando la conexi√≥n debido a una orden del administrador
+2023-09-13 18:45:16.205 CDT [7624] FATAL:  terminando la conexi√≥n debido a una orden del administrador
+2023-09-13 18:45:16.236 CDT [3840] LOG:  apagando
+2023-09-13 18:45:16.283 CDT [7720] FATAL:  el sistema de base de datos est· apag·ndose
+2023-09-13 18:45:16.359 CDT [2252] FATAL:  el sistema de base de datos est· apag·ndose
+2023-09-13 18:45:16.384 CDT [4040] LOG:  el sistema de bases de datos est· apagado

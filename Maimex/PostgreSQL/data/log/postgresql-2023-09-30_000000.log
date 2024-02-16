@@ -1,0 +1,2 @@
+2023-09-30 17:27:33.138 CDT [4416] LOG:  no se pudo cambiar el nombre al archivo temporal de estadísticas de «pg_stat_tmp/global.tmp» a «pg_stat_tmp/global.stat»: Permission denied
+2023-09-30 17:27:39.619 CDT [5964] LOG:  usando estadÃ­sticas aÃ±ejas en vez de actualizadas porque el recolector de estadÃ­sticas no estÃ¡ respondiendo

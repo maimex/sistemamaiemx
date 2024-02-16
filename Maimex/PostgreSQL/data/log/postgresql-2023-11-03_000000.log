@@ -1,0 +1,9 @@
+2023-11-03 12:03:37.442 CST [4716] ERROR:  update o delete en «stock_picking_type» viola la llave foránea «stock_picking_picking_type_id_fkey» en la tabla «stock_picking»
+2023-11-03 12:03:37.442 CST [4716] DETALLE:  La llave (id)=(6) todavía es referida desde la tabla «stock_picking».
+2023-11-03 12:03:37.442 CST [4716] SENTENCIA:  DELETE FROM stock_picking_type WHERE id IN (6)
+2023-11-03 12:03:42.174 CST [484] ERROR:  update o delete en «stock_picking_type» viola la llave foránea «stock_picking_picking_type_id_fkey» en la tabla «stock_picking»
+2023-11-03 12:03:42.174 CST [484] DETALLE:  La llave (id)=(6) todavía es referida desde la tabla «stock_picking».
+2023-11-03 12:03:42.174 CST [484] SENTENCIA:  DELETE FROM stock_picking_type WHERE id IN (6)
+2023-11-03 12:07:01.748 CST [8280] ERROR:  update o delete en «product_product» viola la llave foránea «stock_move_product_id_fkey» en la tabla «stock_move»
+2023-11-03 12:07:01.748 CST [8280] DETALLE:  La llave (id)=(55) todavía es referida desde la tabla «stock_move».
+2023-11-03 12:07:01.748 CST [8280] SENTENCIA:  DELETE FROM product_template WHERE id IN (55)

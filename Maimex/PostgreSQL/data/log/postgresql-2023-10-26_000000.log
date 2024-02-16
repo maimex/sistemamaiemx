@@ -1,0 +1,14 @@
+2023-10-26 03:02:02.940 CDT [4264] LOG:  no se pudo cambiar el nombre al archivo temporal de estadísticas de «pg_stat_tmp/global.tmp» a «pg_stat_tmp/global.stat»: Permission denied
+2023-10-26 03:02:07.624 CDT [3232] LOG:  usando estadÃ­sticas aÃ±ejas en vez de actualizadas porque el recolector de estadÃ­sticas no estÃ¡ respondiendo
+2023-10-26 03:34:33.899 CDT [4264] LOG:  no se pudo cambiar el nombre al archivo temporal de estadísticas de «pg_stat_tmp/global.tmp» a «pg_stat_tmp/global.stat»: Permission denied
+2023-10-26 03:34:38.583 CDT [588] LOG:  usando estadÃ­sticas aÃ±ejas en vez de actualizadas porque el recolector de estadÃ­sticas no estÃ¡ respondiendo
+2023-10-26 04:03:05.849 CDT [4264] LOG:  no se pudo cambiar el nombre al archivo temporal de estadísticas de «pg_stat_tmp/global.tmp» a «pg_stat_tmp/global.stat»: Permission denied
+2023-10-26 04:03:10.533 CDT [2356] LOG:  usando estadÃ­sticas aÃ±ejas en vez de actualizadas porque el recolector de estadÃ­sticas no estÃ¡ respondiendo
+2023-10-26 06:27:13.102 CDT [4264] LOG:  no se pudo cambiar el nombre al archivo temporal de estadísticas de «pg_stat_tmp/global.tmp» a «pg_stat_tmp/global.stat»: Permission denied
+2023-10-26 06:27:17.786 CDT [788] LOG:  usando estadÃ­sticas aÃ±ejas en vez de actualizadas porque el recolector de estadÃ­sticas no estÃ¡ respondiendo
+2023-10-26 09:29:51.733 CDT [4264] LOG:  no se pudo cambiar el nombre al archivo temporal de estadísticas de «pg_stat_tmp/global.tmp» a «pg_stat_tmp/global.stat»: Permission denied
+2023-10-26 09:29:56.417 CDT [596] LOG:  usando estadÃ­sticas aÃ±ejas en vez de actualizadas porque el recolector de estadÃ­sticas no estÃ¡ respondiendo
+2023-10-26 09:37:52.078 CDT [4264] LOG:  no se pudo cambiar el nombre al archivo temporal de estadísticas de «pg_stat_tmp/global.tmp» a «pg_stat_tmp/global.stat»: Permission denied
+2023-10-26 09:37:56.762 CDT [1420] LOG:  usando estadÃ­sticas aÃ±ejas en vez de actualizadas porque el recolector de estadÃ­sticas no estÃ¡ respondiendo
+2023-10-26 12:22:59.053 CDT [4264] LOG:  no se pudo cambiar el nombre al archivo temporal de estadísticas de «pg_stat_tmp/global.tmp» a «pg_stat_tmp/global.stat»: Permission denied
+2023-10-26 12:23:03.737 CDT [4884] LOG:  usando estadÃ­sticas aÃ±ejas en vez de actualizadas porque el recolector de estadÃ­sticas no estÃ¡ respondiendo

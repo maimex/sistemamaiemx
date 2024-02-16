@@ -1,0 +1,7 @@
+2023-08-29 05:26:34.461 CDT [3916] LOG:  no se pudo cambiar el nombre al archivo temporal de estadísticas de «pg_stat_tmp/global.tmp» a «pg_stat_tmp/global.stat»: Permission denied
+2023-08-29 05:26:39.146 CDT [4404] LOG:  usando estadÃ­sticas aÃ±ejas en vez de actualizadas porque el recolector de estadÃ­sticas no estÃ¡ respondiendo
+2023-08-29 10:18:19.308 CDT [3916] LOG:  no se pudo cambiar el nombre al archivo temporal de estadísticas de «pg_stat_tmp/global.tmp» a «pg_stat_tmp/global.stat»: Permission denied
+2023-08-29 10:18:23.993 CDT [1636] LOG:  usando estadÃ­sticas aÃ±ejas en vez de actualizadas porque el recolector de estadÃ­sticas no estÃ¡ respondiendo
+2023-08-29 10:24:54.106 CDT [7272] ERROR:  el valor null para la columna Â«urlÂ» viola la restricciÃ³n not null
+2023-08-29 10:24:54.106 CDT [7272] DETALLE:  La fila que falla contiene (382, https://disponibles-maimex.glide.page/dl/a400f7, ir.actions.act_url, null, null, action, list,form, 2, 2023-08-29 15:24:54.083857, 2, 2023-08-29 15:24:54.083857, null, new).
+2023-08-29 10:24:54.106 CDT [7272] SENTENCIA:  INSERT INTO "ir_act_url" ("id", "binding_type", "binding_view_types", "create_date", "create_uid", "name", "target", "type", "write_date", "write_uid") VALUES (nextval('ir_actions_id_seq'), 'action', 'list,form', '2023-08-29 15:24:54.083857', 2, 'https://disponibles-maimex.glide.page/dl/a400f7', 'new', 'ir.actions.act_url', '2023-08-29 15:24:54.083857', 2) RETURNING id

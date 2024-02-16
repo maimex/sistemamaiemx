@@ -1,0 +1,5 @@
+2023-10-19 09:12:24.757 CDT [4204] LOG:  no se pudo cambiar el nombre al archivo temporal de estadísticas de «pg_stat_tmp/global.tmp» a «pg_stat_tmp/global.stat»: Permission denied
+2023-10-19 09:12:31.388 CDT [9752] LOG:  usando estadÃ­sticas aÃ±ejas en vez de actualizadas porque el recolector de estadÃ­sticas no estÃ¡ respondiendo
+2023-10-19 09:21:12.783 CDT [4204] LOG:  no se pudo cambiar el nombre al archivo temporal de estadísticas de «pg_stat_tmp/global.tmp» a «pg_stat_tmp/global.stat»: Permission denied
+2023-10-19 16:59:37.379 CDT [5956] ERROR:  no se pudo bloquear un candado en la fila de la relaciÃ³n Â«website_visitorÂ»
+2023-10-19 16:59:37.379 CDT [5956] SENTENCIA:  SELECT * FROM website_visitor where id = 1 FOR NO KEY UPDATE NOWAIT

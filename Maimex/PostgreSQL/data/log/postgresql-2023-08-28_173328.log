@@ -1,0 +1,21 @@
+2023-08-28 17:33:28.450 CDT [7464] LOG:  el sistema de bases de datos fue apagado en 2023-08-28 17:33:17 CDT
+2023-08-28 17:33:28.484 CDT [3848] LOG:  el sistema de bases de datos está listo para aceptar conexiones
+2023-08-28 17:40:43.154 CDT [3276] ERROR:  no se pudo serializar el acceso debido a un delete concurrente
+2023-08-28 17:40:43.154 CDT [3276] SENTENCIA:  DELETE FROM ir_attachment WHERE id IN (13)
+2023-08-28 17:50:05.061 CDT [8852] ERROR:  no se pudo serializar el acceso debido a un update concurrente
+2023-08-28 17:50:05.061 CDT [8852] SENTENCIA:  UPDATE "bus_presence" SET "last_poll"='2023-08-28 22:50:05',"last_presence"='2023-08-28 22:50:04.138371' WHERE id IN (1)
+2023-08-28 17:55:19.489 CDT [3848] LOG:  se recibió petición de apagado rápido
+2023-08-28 17:55:19.495 CDT [3848] LOG:  abortando transacciones activas
+2023-08-28 17:55:19.497 CDT [7644] ERROR:  cancelando la sentencia debido a una petición del usuario
+2023-08-28 17:55:19.500 CDT [3276] FATAL:  terminando la conexiÃ³n debido a una orden del administrador
+2023-08-28 17:55:19.502 CDT [8684] FATAL:  terminando la conexiÃ³n debido a una orden del administrador
+2023-08-28 17:55:19.505 CDT [6780] FATAL:  terminando la conexiÃ³n debido a una orden del administrador
+2023-08-28 17:55:19.512 CDT [5544] FATAL:  terminando la conexiÃ³n debido a una orden del administrador
+2023-08-28 17:55:19.514 CDT [8852] FATAL:  terminando la conexiÃ³n debido a una orden del administrador
+2023-08-28 17:55:19.519 CDT [592] FATAL:  terminando la conexiÃ³n debido a una orden del administrador
+2023-08-28 17:55:19.527 CDT [7268] FATAL:  terminando la conexiÃ³n debido a una orden del administrador
+2023-08-28 17:55:19.542 CDT [3848] LOG:  proceso ayudante «logical replication launcher» (PID 7644) terminó con código de salida 1
+2023-08-28 17:55:19.766 CDT [5200] FATAL:  el sistema de base de datos está apagándose
+2023-08-28 17:55:19.803 CDT [4680] FATAL:  el sistema de base de datos está apagándose
+2023-08-28 17:55:19.911 CDT [840] LOG:  apagando
+2023-08-28 17:55:19.958 CDT [3848] LOG:  el sistema de bases de datos está apagado

@@ -1,0 +1,40 @@
+2023-10-10 09:36:07.365 CDT [4416] LOG:  no se pudo cambiar el nombre al archivo temporal de estad�sticas de �pg_stat_tmp/global.tmp� a �pg_stat_tmp/global.stat�: Permission denied
+2023-10-10 14:25:00.238 CDT [2888] ERROR:  update o delete en «stock_picking_type» viola la llave foránea «stock_rule_picking_type_id_fkey» en la tabla «stock_rule»
+2023-10-10 14:25:00.238 CDT [2888] DETALLE:  La llave (id)=(2) todavía es referida desde la tabla «stock_rule».
+2023-10-10 14:25:00.238 CDT [2888] SENTENCIA:  DELETE FROM stock_picking_type WHERE id IN (2)
+2023-10-10 23:40:48.519 CDT [9612] ERROR:  no se pudo serializar el acceso debido a un update concurrente
+2023-10-10 23:40:48.519 CDT [9612] SENTENCIA:  
+	            SELECT *
+	            FROM ir_cron
+	            WHERE active = true
+	              AND numbercall != 0
+	              AND (nextcall <= (now() at time zone 'UTC')
+	                OR EXISTS (
+	                    SELECT cron_id
+	                    FROM ir_cron_trigger
+	                    WHERE call_at <= (now() at time zone 'UTC')
+	                      AND cron_id = ir_cron.id
+	                )
+	              )
+	              AND id in (9)
+	            ORDER BY priority
+	            LIMIT 1 FOR NO KEY UPDATE SKIP LOCKED
+	        
+2023-10-10 23:40:48.540 CDT [6372] ERROR:  no se pudo serializar el acceso debido a un update concurrente
+2023-10-10 23:40:48.540 CDT [6372] SENTENCIA:  
+	            SELECT *
+	            FROM ir_cron
+	            WHERE active = true
+	              AND numbercall != 0
+	              AND (nextcall <= (now() at time zone 'UTC')
+	                OR EXISTS (
+	                    SELECT cron_id
+	                    FROM ir_cron_trigger
+	                    WHERE call_at <= (now() at time zone 'UTC')
+	                      AND cron_id = ir_cron.id
+	                )
+	              )
+	              AND id in (8)
+	            ORDER BY priority
+	            LIMIT 1 FOR NO KEY UPDATE SKIP LOCKED
+	        

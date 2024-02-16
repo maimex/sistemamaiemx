@@ -1,0 +1,9 @@
+2023-09-19 17:29:41.108 CDT [804] LOG:  el sistema de bases de datos fue apagado en 2023-09-19 17:29:14 CDT
+2023-09-19 17:29:41.192 CDT [3228] LOG:  el sistema de bases de datos está listo para aceptar conexiones
+2023-09-19 17:58:10.094 CDT [5104] ERROR:  el valor null para la columna Â«sequence_codeÂ» viola la restricciÃ³n not null
+2023-09-19 17:58:10.094 CDT [5104] DETALLE:  La fila que falla contiene (7, kit contigo y tu bebe, null, null, null, null, null, null, null, null, null, null, t, t, t, null, f, t, at_confirm, null, null, null, 1, 9, 2023-09-19 22:58:10.052169, 9, 2023-09-19 22:58:10.052169).
+2023-09-19 17:58:10.094 CDT [5104] SENTENCIA:  INSERT INTO "stock_picking_type" ("id", "active", "company_id", "create_date", "create_uid", "name", "reservation_method", "show_operations", "show_reserved", "use_create_lots", "use_existing_lots", "write_date", "write_uid") VALUES (nextval('stock_picking_type_id_seq'), true, 1, '2023-09-19 22:58:10.052169', 9, 'kit contigo y tu bebe', 'at_confirm', false, true, true, true, '2023-09-19 22:58:10.052169', 9) RETURNING id
+2023-09-19 18:44:25.182 CDT [4112] LOG:  no se pudo cambiar el nombre al archivo temporal de estadísticas de «pg_stat_tmp/global.tmp» a «pg_stat_tmp/global.stat»: Permission denied
+2023-09-19 18:44:29.853 CDT [3552] LOG:  usando estadÃ­sticas aÃ±ejas en vez de actualizadas porque el recolector de estadÃ­sticas no estÃ¡ respondiendo
+2023-09-19 20:16:28.868 CDT [4112] LOG:  no se pudo cambiar el nombre al archivo temporal de estadísticas de «pg_stat_tmp/global.tmp» a «pg_stat_tmp/global.stat»: Permission denied
+2023-09-19 20:16:33.553 CDT [4400] LOG:  usando estadÃ­sticas aÃ±ejas en vez de actualizadas porque el recolector de estadÃ­sticas no estÃ¡ respondiendo

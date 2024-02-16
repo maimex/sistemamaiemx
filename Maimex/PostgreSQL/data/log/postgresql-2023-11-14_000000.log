@@ -1,0 +1,64 @@
+2023-11-14 19:55:57.213 CST [4104] LOG:  se recibi� petici�n de apagado r�pido
+2023-11-14 19:55:57.371 CST [4104] LOG:  abortando transacciones activas
+2023-11-14 19:55:57.409 CST [8052] FATAL:  terminando la conexión debido a una orden del administrador
+2023-11-14 19:55:57.417 CST [5420] FATAL:  terminando la conexión debido a una orden del administrador
+2023-11-14 19:55:57.417 CST [4832] FATAL:  terminando la conexión debido a una orden del administrador
+2023-11-14 19:55:57.422 CST [6916] FATAL:  terminando la conexión debido a una orden del administrador
+2023-11-14 19:55:57.426 CST [4060] FATAL:  terminando la conexión debido a una orden del administrador
+2023-11-14 19:55:57.434 CST [7200] FATAL:  terminando la conexión debido a una orden del administrador
+2023-11-14 19:55:57.435 CST [4476] ERROR:  cancelando la sentencia debido a una petici�n del usuario
+2023-11-14 19:55:57.440 CST [10220] FATAL:  terminando la conexión debido a una orden del administrador
+2023-11-14 19:55:57.454 CST [1872] FATAL:  terminando la conexión debido a una orden del administrador
+2023-11-14 19:55:57.467 CST [5064] FATAL:  terminando la conexión debido a una orden del administrador
+2023-11-14 19:55:57.476 CST [6688] FATAL:  terminando la conexión debido a una orden del administrador
+2023-11-14 19:55:57.485 CST [6088] FATAL:  terminando la conexión debido a una orden del administrador
+2023-11-14 19:55:57.493 CST [6680] FATAL:  terminando la conexión debido a una orden del administrador
+2023-11-14 19:55:57.495 CST [9808] FATAL:  terminando la conexión debido a una orden del administrador
+2023-11-14 19:55:57.505 CST [6784] FATAL:  terminando la conexión debido a una orden del administrador
+2023-11-14 19:55:57.526 CST [7420] FATAL:  terminando la conexión debido a una orden del administrador
+2023-11-14 19:55:57.529 CST [944] FATAL:  terminando la conexión debido a una orden del administrador
+2023-11-14 19:55:57.534 CST [424] FATAL:  terminando la conexión debido a una orden del administrador
+2023-11-14 19:55:57.536 CST [2468] FATAL:  terminando la conexión debido a una orden del administrador
+2023-11-14 19:55:57.586 CST [8488] FATAL:  terminando la conexión debido a una orden del administrador
+2023-11-14 19:55:57.598 CST [6936] FATAL:  terminando la conexión debido a una orden del administrador
+2023-11-14 19:55:57.604 CST [9044] FATAL:  terminando la conexión debido a una orden del administrador
+2023-11-14 19:55:57.608 CST [9648] FATAL:  terminando la conexión debido a una orden del administrador
+2023-11-14 19:55:57.620 CST [8660] FATAL:  terminando la conexión debido a una orden del administrador
+2023-11-14 19:55:57.621 CST [9020] FATAL:  terminando la conexión debido a una orden del administrador
+2023-11-14 19:55:57.631 CST [4708] FATAL:  terminando la conexión debido a una orden del administrador
+2023-11-14 19:55:57.633 CST [5576] FATAL:  terminando la conexión debido a una orden del administrador
+2023-11-14 19:55:57.635 CST [6076] FATAL:  terminando la conexión debido a una orden del administrador
+2023-11-14 19:55:57.638 CST [9472] FATAL:  terminando la conexión debido a una orden del administrador
+2023-11-14 19:55:57.655 CST [2104] FATAL:  terminando la conexión debido a una orden del administrador
+2023-11-14 19:55:57.661 CST [5216] FATAL:  terminando la conexión debido a una orden del administrador
+2023-11-14 19:55:57.700 CST [9848] FATAL:  terminando la conexión debido a una orden del administrador
+2023-11-14 19:55:57.713 CST [4644] FATAL:  terminando la conexión debido a una orden del administrador
+2023-11-14 19:55:57.723 CST [7020] FATAL:  terminando la conexión debido a una orden del administrador
+2023-11-14 19:55:57.732 CST [8280] FATAL:  terminando la conexión debido a una orden del administrador
+2023-11-14 19:55:57.736 CST [5616] FATAL:  terminando la conexión debido a una orden del administrador
+2023-11-14 19:55:57.738 CST [5988] FATAL:  terminando la conexión debido a una orden del administrador
+2023-11-14 19:55:57.749 CST [852] FATAL:  terminando la conexión debido a una orden del administrador
+2023-11-14 19:55:57.756 CST [7404] FATAL:  terminando la conexión debido a una orden del administrador
+2023-11-14 19:55:57.762 CST [228] FATAL:  terminando la conexión debido a una orden del administrador
+2023-11-14 19:55:57.780 CST [2072] FATAL:  terminando la conexión debido a una orden del administrador
+2023-11-14 19:55:57.788 CST [7232] FATAL:  terminando la conexión debido a una orden del administrador
+2023-11-14 19:55:57.791 CST [6536] FATAL:  terminando la conexión debido a una orden del administrador
+2023-11-14 19:55:57.796 CST [8880] FATAL:  terminando la conexión debido a una orden del administrador
+2023-11-14 19:55:57.810 CST [9972] FATAL:  terminando la conexión debido a una orden del administrador
+2023-11-14 19:55:57.822 CST [8140] FATAL:  terminando la conexión debido a una orden del administrador
+2023-11-14 19:55:57.828 CST [4280] FATAL:  terminando la conexión debido a una orden del administrador
+2023-11-14 19:55:57.833 CST [4712] FATAL:  terminando la conexión debido a una orden del administrador
+2023-11-14 19:55:57.852 CST [3652] FATAL:  terminando la conexión debido a una orden del administrador
+2023-11-14 19:55:57.857 CST [7160] FATAL:  terminando la conexión debido a una orden del administrador
+2023-11-14 19:55:57.869 CST [7632] FATAL:  terminando la conexión debido a una orden del administrador
+2023-11-14 19:55:57.870 CST [484] FATAL:  terminando la conexión debido a una orden del administrador
+2023-11-14 19:55:57.882 CST [7500] FATAL:  terminando la conexión debido a una orden del administrador
+2023-11-14 19:55:57.887 CST [1308] FATAL:  terminando la conexión debido a una orden del administrador
+2023-11-14 19:55:57.902 CST [684] FATAL:  terminando la conexión debido a una orden del administrador
+2023-11-14 19:55:57.902 CST [7584] FATAL:  terminando la conexión debido a una orden del administrador
+2023-11-14 19:55:57.910 CST [5220] FATAL:  terminando la conexión debido a una orden del administrador
+2023-11-14 19:55:57.913 CST [4716] FATAL:  terminando la conexión debido a una orden del administrador
+2023-11-14 19:55:57.914 CST [4792] FATAL:  terminando la conexión debido a una orden del administrador
+2023-11-14 19:55:57.922 CST [4104] LOG:  proceso ayudante �logical replication launcher� (PID 4476) termin� con c�digo de salida 1
+2023-11-14 19:55:57.976 CST [4364] LOG:  apagando
+2023-11-14 19:55:58.040 CST [4104] LOG:  el sistema de bases de datos est� apagado

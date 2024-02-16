@@ -1,0 +1,52 @@
+2023-10-05 11:47:42.125 CDT [6432] ERROR:  update o delete en «product_product» viola la llave foránea «stock_move_product_id_fkey» en la tabla «stock_move»
+2023-10-05 11:47:42.125 CDT [6432] DETALLE:  La llave (id)=(2) todavía es referida desde la tabla «stock_move».
+2023-10-05 11:47:42.125 CDT [6432] SENTENCIA:  DELETE FROM product_template WHERE id IN (2)
+2023-10-05 16:33:35.693 CDT [5444] ERROR:  no se pudo serializar el acceso debido a un update concurrente
+2023-10-05 16:33:35.693 CDT [5444] SENTENCIA:  UPDATE "mail_channel_partner" SET "is_minimized"=true,"write_date"='2023-10-05 21:33:35.660066',"write_uid"=15 WHERE id IN (41)
+2023-10-05 16:34:54.762 CDT [8764] ERROR:  no se pudo serializar el acceso debido a un update concurrente
+2023-10-05 16:34:54.762 CDT [8764] SENTENCIA:  UPDATE "bus_presence" SET "last_poll"='2023-10-05 21:34:54' WHERE id IN (12)
+2023-10-05 16:34:56.808 CDT [2328] ERROR:  no se pudo serializar el acceso debido a un update concurrente
+2023-10-05 16:34:56.808 CDT [2328] SENTENCIA:  UPDATE "mail_channel_partner" SET "is_minimized"=true,"write_date"='2023-10-05 21:34:56.789467',"write_uid"=2 WHERE id IN (42)
+2023-10-05 16:35:10.543 CDT [5596] ERROR:  no se pudo serializar el acceso debido a un update concurrente
+2023-10-05 16:35:10.543 CDT [5596] SENTENCIA:  
+	                UPDATE mail_channel_partner
+	                SET fetched_message_id = 419
+	                WHERE id IN (
+	                    SELECT id FROM mail_channel_partner WHERE id = 41
+	                    FOR NO KEY UPDATE SKIP LOCKED
+	                )
+	            
+2023-10-05 16:37:16.213 CDT [5948] ERROR:  no se pudo serializar el acceso debido a un update concurrente
+2023-10-05 16:37:16.213 CDT [5948] SENTENCIA:  
+	                UPDATE mail_channel_partner
+	                SET fetched_message_id = 427
+	                WHERE id IN (
+	                    SELECT id FROM mail_channel_partner WHERE id = 41
+	                    FOR NO KEY UPDATE SKIP LOCKED
+	                )
+	            
+2023-10-05 16:37:17.711 CDT [10152] ERROR:  no se pudo serializar el acceso debido a un update concurrente
+2023-10-05 16:37:17.711 CDT [10152] SENTENCIA:  
+	                UPDATE mail_channel_partner
+	                SET fetched_message_id = 428
+	                WHERE id IN (
+	                    SELECT id FROM mail_channel_partner WHERE id = 41
+	                    FOR NO KEY UPDATE SKIP LOCKED
+	                )
+	            
+2023-10-05 16:37:33.989 CDT [9612] ERROR:  no se pudo serializar el acceso debido a un update concurrente
+2023-10-05 16:37:33.989 CDT [9612] SENTENCIA:  UPDATE "bus_presence" SET "last_poll"='2023-10-05 21:37:33' WHERE id IN (12)
+2023-10-05 16:37:33.996 CDT [5444] ERROR:  no se pudo serializar el acceso debido a un update concurrente
+2023-10-05 16:37:33.996 CDT [5444] SENTENCIA:  
+	                UPDATE mail_channel_partner
+	                SET fetched_message_id = 430
+	                WHERE id IN (
+	                    SELECT id FROM mail_channel_partner WHERE id = 41
+	                    FOR NO KEY UPDATE SKIP LOCKED
+	                )
+	            
+2023-10-05 16:37:34.134 CDT [2888] ERROR:  no se pudo serializar el acceso debido a un update concurrente
+2023-10-05 16:37:34.134 CDT [2888] SENTENCIA:  UPDATE "bus_presence" SET "last_poll"='2023-10-05 21:37:34' WHERE id IN (12)
+2023-10-05 16:47:44.595 CDT [6372] ERROR:  el valor null para la columna «country_id» viola la restricción not null
+2023-10-05 16:47:44.595 CDT [6372] DETALLE:  La fila que falla contiene (1520, null, ALVARO OBREGON, null, 11, 2023-10-05 21:47:44.583007, 11, 2023-10-05 21:47:44.583007).
+2023-10-05 16:47:44.595 CDT [6372] SENTENCIA:  INSERT INTO "res_country_state" ("id", "country_id", "create_date", "create_uid", "name", "write_date", "write_uid") VALUES (nextval('res_country_state_id_seq'), NULL, '2023-10-05 21:47:44.583007', 11, 'ALVARO OBREGON', '2023-10-05 21:47:44.583007', 11) RETURNING id

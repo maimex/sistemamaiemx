@@ -1,0 +1,20 @@
+2023-10-18 13:41:37.492 CDT [8668] ERROR:  no se pudo serializar el acceso debido a un update concurrente
+2023-10-18 13:41:37.492 CDT [8668] SENTENCIA:  UPDATE "mail_channel_partner" SET "fold_state"='open',"is_minimized"=true,"write_date"='2023-10-18 18:41:37.432446',"write_uid"=15 WHERE id IN (41)
+2023-10-18 16:40:52.839 CDT [128] ERROR:  no se pudo serializar el acceso debido a un update concurrente
+2023-10-18 16:40:52.839 CDT [128] SENTENCIA:  
+	            SELECT *
+	            FROM ir_cron
+	            WHERE active = true
+	              AND numbercall != 0
+	              AND (nextcall <= (now() at time zone 'UTC')
+	                OR EXISTS (
+	                    SELECT cron_id
+	                    FROM ir_cron_trigger
+	                    WHERE call_at <= (now() at time zone 'UTC')
+	                      AND cron_id = ir_cron.id
+	                )
+	              )
+	              AND id in (13)
+	            ORDER BY priority
+	            LIMIT 1 FOR NO KEY UPDATE SKIP LOCKED
+	        

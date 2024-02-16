@@ -1,0 +1,41 @@
+2023-10-04 03:40:34.077 CDT [1892] ERROR:  no se pudo serializar el acceso debido a un update concurrente
+2023-10-04 03:40:34.077 CDT [1892] SENTENCIA:  
+	            SELECT *
+	            FROM ir_cron
+	            WHERE active = true
+	              AND numbercall != 0
+	              AND (nextcall <= (now() at time zone 'UTC')
+	                OR EXISTS (
+	                    SELECT cron_id
+	                    FROM ir_cron_trigger
+	                    WHERE call_at <= (now() at time zone 'UTC')
+	                      AND cron_id = ir_cron.id
+	                )
+	              )
+	              AND id in (13)
+	            ORDER BY priority
+	            LIMIT 1 FOR NO KEY UPDATE SKIP LOCKED
+	        
+2023-10-04 05:40:35.381 CDT [2140] ERROR:  no se pudo serializar el acceso debido a un update concurrente
+2023-10-04 05:40:35.381 CDT [2140] SENTENCIA:  
+	            SELECT *
+	            FROM ir_cron
+	            WHERE active = true
+	              AND numbercall != 0
+	              AND (nextcall <= (now() at time zone 'UTC')
+	                OR EXISTS (
+	                    SELECT cron_id
+	                    FROM ir_cron_trigger
+	                    WHERE call_at <= (now() at time zone 'UTC')
+	                      AND cron_id = ir_cron.id
+	                )
+	              )
+	              AND id in (9)
+	            ORDER BY priority
+	            LIMIT 1 FOR NO KEY UPDATE SKIP LOCKED
+	        
+2023-10-04 12:57:30.921 CDT [8764] ERROR:  no se pudo serializar el acceso debido a un update concurrente
+2023-10-04 12:57:30.921 CDT [8764] SENTENCIA:  UPDATE "bus_presence" SET "last_poll"='2023-10-04 17:57:30' WHERE id IN (1)
+2023-10-04 12:58:20.991 CDT [10232] ERROR:  no se pudo serializar el acceso debido a un update concurrente
+2023-10-04 12:58:20.991 CDT [10232] SENTENCIA:  UPDATE "bus_presence" SET "last_poll"='2023-10-04 17:58:20' WHERE id IN (1)
+2023-10-04 16:54:33.791 CDT [4416] LOG:  no se pudo cambiar el nombre al archivo temporal de estadísticas de «pg_stat_tmp/global.tmp» a «pg_stat_tmp/global.stat»: Permission denied

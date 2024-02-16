@@ -1,0 +1,8 @@
+2023-11-22 15:11:54.675 CST [2956] ERROR:  no se pudo serializar el acceso debido a un update concurrente
+2023-11-22 15:11:54.675 CST [2956] SENTENCIA:  UPDATE "bus_presence" SET "last_poll"='2023-11-22 21:11:54',"last_presence"='2023-11-22 21:11:50.858656' WHERE id IN (11)
+2023-11-22 19:56:31.017 CST [4160] LOG:  no se pudo cambiar el nombre al archivo temporal de estadísticas de «pg_stat_tmp/global.tmp» a «pg_stat_tmp/global.stat»: Permission denied
+2023-11-22 19:56:35.702 CST [3568] LOG:  usando estadÃ­sticas aÃ±ejas en vez de actualizadas porque el recolector de estadÃ­sticas no estÃ¡ respondiendo
+2023-11-22 20:09:59.224 CST [4160] LOG:  no se pudo cambiar el nombre al archivo temporal de estadísticas de «pg_stat_tmp/global.tmp» a «pg_stat_tmp/global.stat»: Permission denied
+2023-11-22 20:10:03.910 CST [8932] LOG:  usando estadÃ­sticas aÃ±ejas en vez de actualizadas porque el recolector de estadÃ­sticas no estÃ¡ respondiendo
+2023-11-22 23:15:41.751 CST [4160] LOG:  no se pudo cambiar el nombre al archivo temporal de estadísticas de «pg_stat_tmp/global.tmp» a «pg_stat_tmp/global.stat»: Permission denied
+2023-11-22 23:15:46.437 CST [9356] LOG:  usando estadÃ­sticas aÃ±ejas en vez de actualizadas porque el recolector de estadÃ­sticas no estÃ¡ respondiendo

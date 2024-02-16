@@ -1,0 +1,6 @@
+2023-08-28 17:55:42.728 CDT [3924] LOG:  el sistema de bases de datos fue apagado en 2023-08-28 17:55:19 CDT
+2023-08-28 17:55:42.827 CDT [4040] LOG:  el sistema de bases de datos está listo para aceptar conexiones
+2023-08-28 22:29:39.046 CDT [3916] LOG:  no se pudo cambiar el nombre al archivo temporal de estadísticas de «pg_stat_tmp/global.tmp» a «pg_stat_tmp/global.stat»: Permission denied
+2023-08-28 22:29:43.717 CDT [600] LOG:  usando estadÃ­sticas aÃ±ejas en vez de actualizadas porque el recolector de estadÃ­sticas no estÃ¡ respondiendo
+2023-08-28 22:55:11.221 CDT [3916] LOG:  no se pudo cambiar el nombre al archivo temporal de estadísticas de «pg_stat_tmp/global.tmp» a «pg_stat_tmp/global.stat»: Permission denied
+2023-08-28 22:55:15.906 CDT [6604] LOG:  usando estadÃ­sticas aÃ±ejas en vez de actualizadas porque el recolector de estadÃ­sticas no estÃ¡ respondiendo
