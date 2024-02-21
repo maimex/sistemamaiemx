@@ -1,1 +1,0 @@
-2023-09-15 19:35:48.952 CDT [4180] LOG:  no se pudo cambiar el nombre al archivo temporal de estadísticas de «pg_stat_tmp/global.tmp» a «pg_stat_tmp/global.stat»: Permission denied

@@ -1,0 +1,21 @@
+2023-09-19 09:00:10.740 CDT [4180] LOG:  no se pudo cambiar el nombre al archivo temporal de estadÌsticas de ´pg_stat_tmp/global.tmpª a ´pg_stat_tmp/global.statª: Permission denied
+2023-09-19 09:00:17.077 CDT [1708] LOG:  usando estad√≠sticas a√±ejas en vez de actualizadas porque el recolector de estad√≠sticas no est√° respondiendo
+2023-09-19 17:29:14.486 CDT [1040] LOG:  se recibiÛ peticiÛn de apagado r·pido
+2023-09-19 17:29:14.496 CDT [1040] LOG:  abortando transacciones activas
+2023-09-19 17:29:14.501 CDT [8744] FATAL:  terminando la conexi√≥n debido a una orden del administrador
+2023-09-19 17:29:14.509 CDT [396] FATAL:  terminando la conexi√≥n debido a una orden del administrador
+2023-09-19 17:29:14.509 CDT [9376] FATAL:  terminando la conexi√≥n debido a una orden del administrador
+2023-09-19 17:29:14.516 CDT [4188] ERROR:  cancelando la sentencia debido a una peticiÛn del usuario
+2023-09-19 17:29:14.517 CDT [1884] FATAL:  terminando la conexi√≥n debido a una orden del administrador
+2023-09-19 17:29:14.520 CDT [1176] FATAL:  terminando la conexi√≥n debido a una orden del administrador
+2023-09-19 17:29:14.517 CDT [7388] FATAL:  terminando la conexi√≥n debido a una orden del administrador
+2023-09-19 17:29:14.541 CDT [10060] FATAL:  terminando la conexi√≥n debido a una orden del administrador
+2023-09-19 17:29:14.562 CDT [4988] FATAL:  terminando la conexi√≥n debido a una orden del administrador
+2023-09-19 17:29:14.562 CDT [4960] FATAL:  terminando la conexi√≥n debido a una orden del administrador
+2023-09-19 17:29:14.569 CDT [1040] LOG:  proceso ayudante ´logical replication launcherª (PID 4188) terminÛ con cÛdigo de salida 1
+2023-09-19 17:29:14.587 CDT [4148] LOG:  apagando
+2023-09-19 17:29:14.721 CDT [9820] FATAL:  el sistema de base de datos est· apag·ndose
+2023-09-19 17:29:14.804 CDT [8352] FATAL:  el sistema de base de datos est· apag·ndose
+2023-09-19 17:29:14.845 CDT [8824] FATAL:  el sistema de base de datos est· apag·ndose
+2023-09-19 17:29:14.888 CDT [3692] FATAL:  el sistema de base de datos est· apag·ndose
+2023-09-19 17:29:14.897 CDT [1040] LOG:  el sistema de bases de datos est· apagado

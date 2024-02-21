@@ -1,0 +1,3 @@
+2024-02-16 08:55:22.459 CST [4400] LOG:  no se pudo cambiar el nombre al archivo temporal de estadísticas de «pg_stat_tmp/global.tmp» a «pg_stat_tmp/global.stat»: Permission denied
+2024-02-16 08:55:28.606 CST [3424] LOG:  usando estadÃ­sticas aÃ±ejas en vez de actualizadas porque el recolector de estadÃ­sticas no estÃ¡ respondiendo
+2024-02-16 08:55:28.969 CST [4388] LOG:  usando estadísticas añejas en vez de actualizadas porque el recolector de estadísticas no está respondiendo

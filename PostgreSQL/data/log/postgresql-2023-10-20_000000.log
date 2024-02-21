@@ -1,0 +1,2 @@
+2023-10-20 11:20:02.567 CDT [5956] ERROR:  no se pudo serializar el acceso debido a un update concurrente
+2023-10-20 11:20:02.567 CDT [5956] SENTENCIA:  UPDATE "mail_channel_partner" SET "is_minimized"=true,"write_date"='2023-10-20 16:20:02.517126',"write_uid"=26 WHERE id IN (64)
